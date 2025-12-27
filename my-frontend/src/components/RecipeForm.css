@@ -1,0 +1,10 @@
+.recipe-form {
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}

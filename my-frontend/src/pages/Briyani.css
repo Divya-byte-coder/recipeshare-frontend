@@ -1,0 +1,83 @@
+.briyani-page {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #fafafa;
+}
+
+/* HERO */
+.briyani-hero {
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  overflow: hidden;
+}
+
+.briyani-hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.briyani-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5%;
+}
+
+.briyani-overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.briyani-overlay p {
+  font-size: 1.2rem;
+  max-width: 500px;
+}
+
+/* CONTENT */
+.briyani-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  padding: 40px 5%;
+}
+
+/* CARD */
+.briyani-card {
+  background: white;
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.briyani-card h2 {
+  color: #ff6b00;
+  margin-bottom: 20px;
+}
+
+.briyani-card ul,
+.briyani-card ol {
+  padding-left: 20px;
+}
+
+.briyani-card li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #333;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .briyani-content {
+    grid-template-columns: 1fr;
+  }
+
+  .briyani-overlay h1 {
+    font-size: 2.2rem;
+  }
+}
