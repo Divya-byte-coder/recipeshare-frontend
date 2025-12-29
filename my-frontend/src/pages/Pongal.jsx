@@ -1,6 +1,6 @@
 import React from "react";
 import "./Pongal.css";
-import pongalImg from "../assets/images/Pongal.webp";
+import pongalImg from "../assets/images/pongal.webp";
 
 function Pongal() {
   return (
@@ -11,7 +11,7 @@ function Pongal() {
           <h1>Ven Pongal</h1>
           <p>
             A traditional South Indian breakfast made with rice, moong dal,
-            ghee, black pepper, and cumin – comforting and nutritious.
+            ghee, black pepper, and cumincomforting and nutritious.
           </p>
         </div>
       </div>

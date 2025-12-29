@@ -7,7 +7,7 @@ import brownieImg from "../assets/images/brownie.webp";
 import pastaImg from "../assets/images/pasta.webp";
 import briyaniImg from "../assets/images/Briyani.webp";
 import tiramisuImg from "../assets/images/Tiramisu.webp";
-import pongalImg from "../assets/images/Pongal.webp";
+import pongalImg from "../assets/images/pongal.webp";
 
 const recipes = [
   {
